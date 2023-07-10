@@ -1,0 +1,11 @@
+#divElement{
+    width: 150px;
+    height: 86px;
+    position: absolute;
+    margin: auto;
+    border: 1px solid black;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: left;
+}

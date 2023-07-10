@@ -1,0 +1,5 @@
+<h3>Error Handling</h3>
+<p><i>Note: To run an item, open the browser console and click the item and see the output in console.</i></p>
+<mat-list role="list" >
+   <mat-list-item role="listitem"*ngFor="let errorHandler of errorHandlers" (click)="showAction(errorHandler)"> <mat-icon matListIcon>done</mat-icon>{{errorHandler}}</mat-list-item>
+ </mat-list>

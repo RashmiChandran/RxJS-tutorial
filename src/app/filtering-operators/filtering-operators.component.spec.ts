@@ -1,0 +1,25 @@
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { FilteringOperatorsComponent } from './filtering-operators.component';
+
+describe('FilteringOperatorsComponent', () => {
+  let component: FilteringOperatorsComponent;
+  let fixture: ComponentFixture<FilteringOperatorsComponent>;
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ FilteringOperatorsComponent ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(FilteringOperatorsComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

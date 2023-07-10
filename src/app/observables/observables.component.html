@@ -1,0 +1,5 @@
+<h3>Observables</h3>
+<p><i>Note: To run an item, open the browser console and click the item and see the output in console.</i></p>
+<mat-list role="list" >
+    <mat-list-item role="listitem"*ngFor="let observer of observables" (click)="showAction(observer)"> <mat-icon matListIcon>done</mat-icon>{{observer}}</mat-list-item>
+</mat-list>

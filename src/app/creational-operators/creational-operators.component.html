@@ -1,0 +1,8 @@
+<h3>Creation Operators</h3>
+<p><i>Note: To run an item, open the browser console and click the item and see the output in console.</i></p>
+<mat-list role="list" >
+    <mat-list-item role="listitem" *ngFor="let operator of creationalOperators" (click)="showAction(operator)"> <mat-icon matListIcon>done</mat-icon>{{operator}}</mat-list-item>
+  </mat-list>
+<div id="divElement">
+    fromEvent Operator Example: Hover here and see console.
+</div>
